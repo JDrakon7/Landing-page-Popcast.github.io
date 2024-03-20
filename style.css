@@ -4,126 +4,284 @@
   box-sizing: 0;
 }
 
+/********************* SECTION CARDS************************ */
+
+.icon-card[src="img/estrella2.png"] {
+  position: absolute;
+  width: 10vh;
+  margin-left: -2em;
+}
+
+.imagen-card[src="img/elipse.png"]{
+  position: relative;
+  width: 90%;
+  left: 21.8em;
+}
+
+.card-icon{
+  margin-left: 44.8em;
+  margin-bottom: 2em;
+}
+
+.icon-2[src="img/estrella2.png"]{
+  width: 8em;
+  position: relative;
+  float:inline-end;
+  right: 6em;
+  top: 0em;
+  z-index: 0;
+
+}
 
 /* **********SECTION HEADER************ */
-
-
-
 .header{
   background-color: rgb(0, 173, 135);  
 }
 
 .icon[src="img/estrella1.png"] {
   margin-left: 20%;
-  width: 20vh;
+  width: 15vh;
 }
 
 .icon[src="img/microfono.png"] {
   margin-left: 20%;
+  width: 3vh;
 }
+
+.icon[src="img/hamburger.png"] {
+  margin-left: 10%;
+  width: 3vh;
+}
+
+/* **********SECTION 1************ */
+
 
 section {
   display: flex; 
-  justify-content: center; 
+  justify-content: center;
+  align-content: space-evenly; 
+  padding-top: 50px;
+  width: 100%;
   
 }
 
-section > div {
-  margin: 0 10px; 
+.titulos-parrafos{
+  width: 30%;
+  justify-self: flex-start;
+  align-self: flex-start;
 }
 
-
 .title{
+
   font-size: 6em;
   color: rgb(242, 234, 214);
   line-height: 0.7em; 
   text-align: center;
-  margin-top: 1.3em; 
+  margin-top: 1em; 
+ 
 }
 
 .parrafo {
-  width: auto;
   font-size: 1em;
   color: #1d1d1d;
   font-family: "DM Sans";
   margin-top: 20px; 
-  margin-left: 1em;
+  margin-left: 5%;
   text-align: center;
+
 }
 
-.butoon{
-width: 20%;
-height: 2.4em;
+.buttons{
+   margin-left: 20%; 
+   margin-top: 20px; 
+
+}
+
+button{
+width: 30%;
+height: 3em;
 border-radius: 20px;
 background-color: #e4a2a7;
 border: 3px solid #1e1e1e;
-text-align: center;
+margin: 10px;
+
+
 }
 
-.imagen{
+.button-2{
+width: 30%;
+height: 3em;
+border-radius: 20px;
+background-color: transparent;
+border: 3px solid #1e1e1e;
+
+
+}
+.imagen[src="img/mujer.png"]{
   width: 40em;
+  position: absolute;
+  top:2.6em;
+  z-index: 1;
+
 }
+.icon[src="img/01.png"]{
+  float: inline-end;
+ }
 
 
-/* ******************************SECTION DIV CENTER ************************/
-.section2 {
-  display: flex; 
-  justify-content: center; 
-}
+
+
+/* ******************************SECTION 2 ************************/
 .center { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e4a2a7;
+  width: 100%;
+
+}
+.title-center{
+  justify-self: center;
+  align-self: center;
+  width: 50%;
+  
 }
 
 .imagen[src="img/mujer3.png"]{
   width: 40em;  
 }
 
+
 .title-small{
   display: flex; 
   justify-content: center; 
   font-size: 2em;
   color: rgb(242, 234, 214);
-  margin-bottom: 2em;
-  padding: 2em;
+  padding: 100px;
+
 }
+
+.title_2{
+  font-size: 7em;
+  color: rgb(242, 234, 214);
+  line-height: 0.7em; 
+  margin-top: 30px; 
+}
+.parrafo_2 {
+  font-size: 1em;
+  color: #1d1d1d;
+  font-family: "DM Sans";
+  margin-top: 40px; 
+  width: 70%;
+  margin-left: 20%;
+}
+
 
 .icon[src="img/estrella3.png"] {
-  margin-left: 46%;
-  margin-top: 8em;
+  margin-left: 40%;
+  margin-top: 10em;
 }
 
 
+  .icon[src="img/listen.png"] {
+    float: left;
+    width: 15%;
+}
+
+.icon1{
+    width: 12vw;
+    position: absolute;
+}
+.lineas{
+  position: relative;
+  width: 0;
+  bottom: 12vh;
+  left: 75vw;
+}
+
+.icon2{
+    width: 12vw;
+    position: absolute;
+}
+.lineas-2{
+  position: relative;
+  width: 0;
+  bottom: 0;
+  right: 20vw;
+}
 
 
-/* ***************SECTION 2 *************** */
+/* ******************SECTION 3************************ */
+
+section:nth-of-type(3) {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 
 .imagen[src="img/mujer2.png"]{
-  width: 30em;
+  width: 30em;  
+  padding: 30px;
 }
 
-.icon[src="img/estrella2.png"] {
-  position: absolute;
-  width: 18vh;
+.icon[src="img/estrella2.png"]{
+  position: relative;
+  width: 16%;  
+  float: inline-start;
+  left: 10em;
 
+}
+
+.icon-small[src="img/estrella2.png"]{
+  position: relative;
+  left: 6em;
 }
 
 
 
-/* ******************SECTION 2************************ */
+/* ******************SECTION 4************************ */
 
-.section3 {
+
+section:nth-of-type(4) {
   background-color: #e4a2a7; 
 }
+
 
 .imagen{
   width: 40em;
 }
 
+.imagen[src="img/mujer3.png"]{
+  width: 30em;  
+  left: 14.4em;
+  position: relative;
+  z-index: 1;
+}
 
-/* *********************SECTION 3********************************* */
+.imagen[src="img/Ellipse.png"]{
+  position: absolute;
+  width: 17em;
+  right: 0;
+  margin-top: 0em;
+}
+
+
+.icon3{
+    width: 12vw;
+    position: absolute;
+}
+.lineas-3{
+  position: relative;
+  width: 0;
+  top: 31em;
+  right: 0vw;
+}
+/* *********************SECTION 5********************************* */
 
 .imagen[src="img/mujer4.png"]{
+  display: flex;
   width: 20em;
+  justify-content: start;
 }
 
 .imagen[src="img/mujer4.1.png"]{
@@ -140,4 +298,154 @@ color: rgb(242, 234, 214);
 line-height: 0.7em; 
 text-align: center;
 margin-top: 1.3em; 
+}
+
+.icon2[src="img/lineas2.png"]{
+  width: 12em;
+  left: 72em;
+
+
+}
+
+
+.title-small-2{
+  text-align: center;
+  font-size: 2em;
+  color: rgb(242, 234, 214);
+
+}
+
+
+
+/* *****************************SECTION 6********************************* */
+
+section .titulos-parrafos .title-small {
+  font-size: 1em;
+  padding: 0.1em;
+}
+.imagen[src="img/lineas2.png"]{
+  width: 17.2em;
+  position: relative;
+  margin-left: 10em;
+  left: 15em;
+}
+
+.icon-small[src="img/estrella2.png"]{
+  width: 30%;  
+  float: inline-end;
+}
+
+
+
+.imagen[src="img/Ellipse.png"]{
+  position: absolute;
+  width: 16em;
+  right: 0;
+  margin-top: 0em;
+}
+
+
+
+/* ***********************FORTTER ****************************** */
+footer {
+  background-color: #e4a2a7; 
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.footer-section {
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.copyright {
+  padding-top: 20px;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+}
+
+
+li{
+  color: black;
+}
+
+
+
+/************************** RESPONSIVE********************** */
+
+@media (min-width: 1200px) {
+ 
+  .title {
+    font-size: 6em;
+  }
+  .parrafo {
+    font-size: 1em;
+    margin-left: 5%;
+  }
+  .buttons {
+    margin-left: 20%;
+  }
+  .imagen {
+    width: 45em;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .title {
+    font-size: 4em;
+  }
+  .parrafo {
+    font-size: 0.8em;
+    margin-left: 10%;
+  }
+  .buttons {
+    margin-left: 10%;
+  }
+  .imagen {
+    width: 30em;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .title {
+    font-size: 3em;
+  }
+  .parrafo {
+    font-size: 0.7em;
+    margin-left: 5%;
+  }
+  .buttons {
+    margin-left: 5%;
+  }
+  .imagen {
+    width: 20em;
+  }
 }
